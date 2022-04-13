@@ -66,3 +66,6 @@ def status(m):
     if p == True:
         return 3
     return 4
+
+m = [['x', 'o', 'x'], ['o', 'x', 'o'], ['o', 'x', 'o']]
+print(status(m))
